@@ -422,7 +422,7 @@ h1.q-title em{color:var(--q-gold);font-style:normal}
 // ==========================================
 // 1. 전역 변수 및 렌더링 유틸리티 (절대 보호 영역)
 // ==========================================
-const BASE = `http://${location.hostname}:8787`;
+const BASE = '';  // 같은 서버(같은 origin)에서 API를 제공하므로 상대경로 사용 — 로컬/배포 환경 모두 자동 대응
 let corp = null;
 let rawData = {};
 let years = [];
