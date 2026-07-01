@@ -1,0 +1,3 @@
+# 이 프로젝트는 파이썬 표준 라이브러리만 사용합니다.
+# (urllib, http.server, json, zipfile 등) — 별도 설치 패키지 없음.
+# 이 파일은 Railway/Render가 "Python 프로젝트"로 인식하도록 존재만 시킵니다.
